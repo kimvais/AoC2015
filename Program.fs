@@ -20,6 +20,7 @@ let main argv =
     | "4" -> day4 ()
     | "4b" -> day4part2 ()
     | "5" -> day5 ()
+    | "5b" -> day5part2 ()
     | _ -> 1
     |> printfn "%d"
     0
